@@ -1,0 +1,8 @@
+{
+    "namespace": "melvor_template",
+    "setup": "setup.mjs",
+    "icon": "assets/icon.png",
+    "load": [
+
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "target": "es2020",
+        "module": "es2020",
+        "strict": false,
+        "esModuleInterop": true,
+        "jsx": "preserve",
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "typeRoots": [
+            "./node_modules/@types",
+            "./node_modules/melvor-typing-project/src/gameTypes",
+            "./node_modules/melvor-typing-project/src/libraryTypes",
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
