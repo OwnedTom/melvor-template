@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx rimraf dist && npx tsc && npx renamer -f js -r mjs dist/** && shx cp -r ./src/assets/ ./dist/ && shx cp manifest.json ./dist && npx cross-zip dist ./build.zip",
+    "build": "npx rimraf dist && npx tsc && npx renamer -f js -r mjs dist/** && shx cp -r ./src/assets/ ./dist/ && shx cp src/manifest.json ./dist && npx cross-zip dist ./build.zip",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
